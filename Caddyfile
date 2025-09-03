@@ -1,0 +1,5 @@
+http://localhost:8000 {
+  root * /nix/store/a37h55ywsk5nq5xlakmdxrq43dkn0cy5-drupal-11.2.3/web
+  php_fastcgi unix//home/parrvx/nix/dev/drupal/php-fpm.sock
+  file_server
+}

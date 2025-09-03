@@ -1,0 +1,26 @@
+2025-09-02 20:07:31.853 EDT [32742] LOG:  starting PostgreSQL 17.6 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-09-02 20:07:31.854 EDT [32742] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-02 20:07:31.854 EDT [32742] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-02 20:07:31.941 EDT [32742] LOG:  listening on Unix socket "/home/parrvx/nix/dev/drupal/.postgresql-data/.s.PGSQL.5432"
+2025-09-02 20:07:32.034 EDT [32745] LOG:  database system was shut down at 2025-09-02 20:07:30 EDT
+2025-09-02 20:07:32.093 EDT [32742] LOG:  database system is ready to accept connections
+2025-09-02 20:09:15.116 EDT [32742] LOG:  received fast shutdown request
+2025-09-02 20:09:15.183 EDT [32742] LOG:  aborting any active transactions
+2025-09-02 20:09:15.188 EDT [32742] LOG:  background worker "logical replication launcher" (PID 32748) exited with exit code 1
+2025-09-02 20:09:15.188 EDT [32743] LOG:  shutting down
+2025-09-02 20:09:15.239 EDT [32743] LOG:  checkpoint starting: shutdown immediate
+2025-09-02 20:09:15.587 EDT [32743] LOG:  checkpoint complete: wrote 44 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.050 s, sync=0.162 s, total=0.399 s; sync files=11, longest=0.129 s, average=0.015 s; distance=248 kB, estimate=248 kB; lsn=0/152ACB8, redo lsn=0/152ACB8
+2025-09-02 20:09:15.602 EDT [32742] LOG:  database system is shut down
+2025-09-02 20:09:23.722 EDT [33435] LOG:  starting PostgreSQL 17.6 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+2025-09-02 20:09:23.723 EDT [33435] LOG:  listening on IPv6 address "::1", port 5432
+2025-09-02 20:09:23.723 EDT [33435] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-09-02 20:09:23.809 EDT [33435] LOG:  listening on Unix socket "/home/parrvx/nix/dev/drupal/.postgresql-data/.s.PGSQL.5432"
+2025-09-02 20:09:23.914 EDT [33438] LOG:  database system was shut down at 2025-09-02 20:09:15 EDT
+2025-09-02 20:09:23.962 EDT [33435] LOG:  database system is ready to accept connections
+2025-09-02 20:11:23.283 EDT [33435] LOG:  received fast shutdown request
+2025-09-02 20:11:23.338 EDT [33435] LOG:  aborting any active transactions
+2025-09-02 20:11:23.342 EDT [33435] LOG:  background worker "logical replication launcher" (PID 33441) exited with exit code 1
+2025-09-02 20:11:23.342 EDT [33436] LOG:  shutting down
+2025-09-02 20:11:23.383 EDT [33436] LOG:  checkpoint starting: shutdown immediate
+2025-09-02 20:11:23.755 EDT [33436] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.055 s, sync=0.140 s, total=0.413 s; sync files=7, longest=0.102 s, average=0.020 s; distance=145 kB, estimate=145 kB; lsn=0/154F478, redo lsn=0/154F478
+2025-09-02 20:11:23.769 EDT [33435] LOG:  database system is shut down

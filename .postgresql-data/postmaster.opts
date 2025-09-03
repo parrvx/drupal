@@ -1,0 +1,1 @@
+/nix/store/86gsjjws5i7fpffpzrh8pz50g4p61195-postgresql-17.6/bin/postgres "-D" "/home/parrvx/nix/dev/drupal/.postgresql-data" "-c" "unix_socket_directories=/home/parrvx/nix/dev/drupal/.postgresql-data"
